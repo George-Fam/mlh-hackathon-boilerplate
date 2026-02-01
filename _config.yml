@@ -13,7 +13,7 @@ baseurl: "/mlh-hackathon-boilerplate"
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://mlh.github.io"
+url: "https://george-fam.github.io" # TODO: Change for proper domain name later
 
 # The ability to use custom themes.
 style:
@@ -21,28 +21,29 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "" # TODO: Add later once domain name is locked down
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "ageei" # TODO: Verify if were going to use this twitter handle or make a new one
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5-6 August 2022"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  title:       "AGEEI Designathon | UQAM"
+  description: "A student-run designathon by the AGEEI for UQAM students, focused on UX, product thinking, and creative problem-solving."
+  image:       "images/ageei-logo.png"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 - 6 August 2022"
-  location:    "Holmdel, NJ, United States"
+  name:        "AGEEI Designathon"
+  description: "A 48-hour designathon for UQAM students focused on UX, product thinking, and creative problem-solving."
+  # TODO: Add later
+  # date:        "March 2026"
+  # location:    "Université du Québec à Montréal (UQAM), Montréal, QC"
 
   trust_badge:
-    year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
+    year:   "2026"  # season year
+    region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
@@ -52,13 +53,17 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:sponsors@ageei.org"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      The AGEEI Designathon is a student-led event organized by the
+      Association Générale des Étudiantes et Étudiants en Informatique (AGEEI)
+      at UQAM. Over two days, participants collaborate in small teams to design
+      thoughtful, user-centered solutions to real-world problems.
+      The event emphasizes UX, UI, and product thinking rather than full technical
+      implementation. No prior design experience is required; curiosity,
+      creativity, and collaboration are what matter most.
 
   # Info Sections
   info:
@@ -66,32 +71,41 @@ event:
       - image: "images/image1.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Learn the fundamentals of UX, UI, and product design through short
+          workshops, mentor guidance, and hands-on exploration.
       - image: "images/image2.png"
-        title: "BUILD."
+        title: "DESIGN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Work in teams to ideate, prototype, and iterate on a design solution,
+          from problem definition to wireframes and interactive mockups.
       - image: "images/image3.png"
-        title: "SHARE."
+        title: "PRESENT."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Present your work to peers, mentors, and judges, receive constructive
+          feedback, and celebrate strong design and creative thinking.
 
   # Frequently asked questions.
   faq:
-    - question: "What is a hackathon?"
+    - question: "What is a Designathon?"
       answer: >
-        A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        A designathon is a collaborative event focused on design and
+        user experience rather than full technical implementation.
+        Teams work on ideation, UX research, wireframes, and prototypes
+        to propose solutions to real-world problems.
+    - question: "Who can participate?"
+      answer: >
+        The event is open to students currently enrolled at UQAM. Beginners are welcome.
     - question: "How much does it cost?"
       answer: >
-        Nothing. Attending a hackathon is free.
-    - question: "Do I need to be a student to attend?"
+        Nothing. Participation is completely free.
+    - question: "Do I need a team to apply?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
-    - question: "Where is the event?"
+        No. You can apply solo or with friends. Team formation activities
+        will take place at the beginning of the event.
+    - question: "Where will the event take place?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The designathon will be hosted in person at UQAM.
+        Exact rooms and logistics will be shared closer to the event.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -103,7 +117,8 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      You'll receive more information closer to the hackathon.
+      Thanks for registering! More information about the schedule,
+      challenges, and logistics will be sent closer to the event.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
